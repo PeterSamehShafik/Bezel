@@ -1,0 +1,2 @@
+# Bezel
+Responsive Static Website
