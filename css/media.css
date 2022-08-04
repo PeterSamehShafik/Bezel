@@ -1,0 +1,106 @@
+/* extra small */
+@media (max-width: 575.98px){
+    /* header */
+    header h2{
+        font-size: 60px !important;
+    }
+    .header-slider{
+        display: none !important;
+    }
+
+    /* navbar */
+    .collapse.navbar-collapse{
+        border-top: 1px solid #dee2e6!important;
+    }
+
+    /* pricing */
+    .card.prefered{
+        transform: scale(1);
+        z-index: 2;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }    
+    .comments .carousel-item .container{
+        width: auto !important;
+    }
+    
+    /* contact */
+    .contact iframe{
+        height: 300px;
+    }
+}
+
+/* small */
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* header */
+    header h2{
+        font-size: 60px !important;
+    }
+    .header-slider{
+        display: none !important;
+    }
+
+    /* navbar */
+    .collapse.navbar-collapse{
+        border-top: 1px solid #dee2e6!important;
+    }
+
+    /* pricing */
+    .card.prefered{
+        transform: scale(1);
+        z-index: 2;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }    
+    .comments .carousel-item .container{
+        width: auto !important;
+    }
+
+    /* contact */
+    .contact iframe{
+        height: 350px;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) and (max-width: 991.98px){
+    /* header */
+    header h2{
+        font-size: 60px !important;
+    }
+
+    /* navbar */
+    .collapse.navbar-collapse{
+        border-top: 1px solid #dee2e6!important;
+    }
+    
+    /* pricing */
+    .card.prefered{
+        transform: scale(1);
+        z-index: 2;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }    
+    .comments .carousel-item .container{
+        width: auto !important;
+    }
+    /* contact */
+    .contact iframe{
+        height: 350px;
+    }
+}
+
+/* large */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .comments .carousel-item .container{
+        width: 70% !important;
+    }
+}
+
+/* extra large */
+@media (min-width: 1200px){
+    
+}
